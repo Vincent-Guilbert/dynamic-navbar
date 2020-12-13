@@ -1,0 +1,78 @@
+body{
+    background-color: whitesmoke;
+}
+
+/* NAVBAR */
+
+#icon{
+    width: 92px;
+    height: auto;
+}
+
+.light-nav{
+    background-color: rgba(255,255,255,1);
+    transition-duration: 0.5s;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.light-nav .toggle-span{
+    background-color: #000000;
+}
+
+.light-nav a{
+    color: #000000;
+}
+
+.dark-nav{
+    background-color: rgba(255,255,255,0);
+    transition-duration: 0.5s;
+}
+
+.dark-nav .toggle-span{
+    background-color: #ffffff;
+}
+
+.dark-nav a{   
+    color: #ffffff;
+}
+
+a.nav-item{
+    background: linear-gradient(to top, lightblue 0%, lightblue 10%, transparent 10.01%) no-repeat left bottom / 0 50%;
+    transition: background-size .5s;
+    font-size: 1.5em;
+}
+
+a.nav-item:hover{
+    background-size: 100% 50%;
+}
+
+/* NAVBAR TOGGLE BUTTON */
+
+.toggle-btn{
+    outline: none !important;
+    border: none;
+}
+
+.toggle-span{
+    height: 5px;
+    width: 40px;
+    margin: 5px 0 2px 0;
+    border-radius: 5px;
+}
+
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    height: 75vh;
+    transition-duration: 0.5s;
+    background: url('/img/wp.jpg');    
+    background-attachment: fixed; 
+    justify-content: center;
+    display: flex;
+}    
+
+.blur{
+    filter: blur(10px);
+}
